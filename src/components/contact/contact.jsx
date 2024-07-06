@@ -35,9 +35,9 @@ function Contact() {
             <textarea name='message' className='message' placeholder='Your Message' rows="5"/>
             <button className='submit' type='submit' value='send'>Submit</button>
             <div className='links'>
-                <a href='https://www.facebook.com/jubin.philip.58/' target='_blank'><img src={fb} alt='client' className='link'/></a>
-                <a href='https://www.instagram.com/jubin._.philip/' target='_blank'><img src={insta} alt='client' className='link'/></a>
-                <a href='https://www.linkedin.com/in/jubin-philip-92935b211/' target='_blank'><img src={linkedin} alt='client' className='link'/></a>
+                <a href='https://www.facebook.com/jubin.philip.58/' target='_blank' rel="noreferrer"><img src={fb} alt='client' className='link'/></a>
+                <a href='https://www.instagram.com/jubin._.philip/' target='_blank' rel="noreferrer"><img src={insta} alt='client' className='link'/></a>
+                <a href='https://www.linkedin.com/in/jubin-philip-92935b211/' target='_blank' rel="noreferrer"><img src={linkedin} alt='client' className='link'/></a>
             </div>
         </form>
         </div>

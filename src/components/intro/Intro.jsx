@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import './intro.css';
 import img from '../../assets/jubin.png';
-import { Link } from 'react-scroll';
+
 
 function Intro() {
   const nameRef = useRef(null);
