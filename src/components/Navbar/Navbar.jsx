@@ -49,7 +49,7 @@ function Navbar() {
       fontWeight: 'bold',
       cursor: 'pointer'
     }}
-  >
+  onClick={handleDownload}>
     Download CV
   </button>
     </div>
