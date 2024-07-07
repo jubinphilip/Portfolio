@@ -1,7 +1,6 @@
-.contactPage
-{
-    min-height: calc(100vh-4rem);
-    width: 100vh;
+.contactPage {
+    min-height: calc(100vh - 4rem);
+    width: 100%;
     max-width: 60rem;
     margin: 0 auto;
     text-align: center;
@@ -9,64 +8,111 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 2rem 1rem;
 }
-.contactpagetitle{
-    font-size: 3rem;
+
+.contactpagetitle {
+    font-size: 2.5rem;
     margin-bottom: 1rem;
 }
-.contactdes{
+
+.contactdes {
     padding: 1rem;
-    font-size: medium;
+    font-size: 1rem;
     font-weight: 300;
+    max-width: 40rem;
+    margin: 0 auto;
 }
-.contactform
-{
-    margin: 1rem;
+
+.contactform {
+    margin: 1rem 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 90vw;
-    max-width: 60rem;
-}
-
-.name,.email,.message,.phone
-{
-    font-size: medium;
     width: 100%;
     max-width: 40rem;
-    margin: 0.5rem;
+}
+
+.name, .email, .message, .phone {
+    font-size: 1rem;
+    width: 100%;
+    margin: 0.5rem 0;
     padding: 0.5rem 1rem;
     color: white;
     border: none;
     border-radius: 0.5rem;
     background: rgb(40, 40, 40);
 }
-input:hover
-{
+
+input:hover {
     background-color: black;
 }
-.submit
-{
+
+.submit {
     background: white;
     border: none;
-    margin: 2rem;
+    margin: 2rem 0;
     padding: 0.75rem 3.5rem;
-    border-radius: .5rem;
-}
-.links
-{
-    display: flex;
-    flex-wrap: wrap; 
+    border-radius: 0.5rem;
+    cursor: pointer;
 }
 
-.link{
+.links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.link {
     object-fit: cover;
     height: 3rem;
     width: 3rem;
-    margin: 0 0.75rem;
-    border-radius: 50px;
+    margin: 0.5rem;
+    border-radius: 50%;
 }
-.submit:hover{
-        background-color:rgb(211, 138, 3) ;
+
+.submit:hover {
+    background-color: rgb(211, 138, 3);
+}
+
+@media screen and (max-width: 768px) {
+    .contactpagetitle {
+        font-size: 2rem;
+    }
+
+    .contactdes {
+        font-size: 0.9rem;
+    }
+
+    .name, .email, .message, .phone {
+        font-size: 0.9rem;
+    }
+
+    .submit {
+        padding: 0.6rem 2.5rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .contactpagetitle {
+        font-size: 1.75rem;
+    }
+
+    .contactdes {
+        font-size: 0.8rem;
+    }
+
+    .name, .email, .message, .phone {
+        font-size: 0.8rem;
+    }
+
+    .submit {
+        padding: 0.5rem 2rem;
+    }
+
+    .link {
+        height: 2.5rem;
+        width: 2.5rem;
+    }
 }
