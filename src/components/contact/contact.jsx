@@ -26,13 +26,13 @@ function Contact() {
         <span className='contactdes'>"Feel free to connect with me for any inquiries, collaboration opportunities, or to discuss potential projects. I'm always excited to engage with fellow enthusiasts and explore new ideas!"</span>
         <form className='contactform' ref={form} onSubmit={sendEmail}>
             <label>Name</label>
-            <input type='text' className='name' name='your_name' placeholder='Your Name'/>
+            <input type='text' className='name' name='your_name' placeholder='Your Name' required/>
             <label>Email</label>
-            <input type='email' className='email' placeholder='Your Email' name='your_email'/>
+            <input type='email' className='email' placeholder='Your Email' name='your_email'  required/>
             <label>Contact Number</label>
-            <input type='text' className='phone' placeholder='Your Contact Number' name='your_phone'/>
+            <input type='text' className='phone' placeholder='Your Contact Number' name='your_phone'  required/>
             <label>Message</label>
-            <textarea name='message' className='message' placeholder='Your Message' rows="5"/>
+            <textarea name='message' className='message' placeholder='Your Message' rows="5"  required/>
             <button className='submit' type='submit' value='send'>Submit</button>
             <div className='links'>
                 <a href='https://www.facebook.com/jubin.philip.58/' target='_blank' rel="noreferrer"><img src={fb} alt='client' className='link'/></a>
