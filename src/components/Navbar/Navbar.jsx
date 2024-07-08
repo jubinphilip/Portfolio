@@ -6,9 +6,8 @@ import { Link } from 'react-scroll'
 import menuicon from '../../assets/menu.png'
 function Navbar() {
   const handleDownload = () => {
-    const fileId = '1BWHyN0dPftA7cAQCYr9IVE5tk5RzenjG'; // Extracted from your Google Drive URL
+    const fileId = '1bD2gOglpu5ds9Cg64xcyF5Sae44IQhpo'; 
     const downloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
-
     const link = document.createElement('a');
     link.href = downloadUrl;
     link.setAttribute('download', 'jubinphilip.pdf'); // Set your CV filename
