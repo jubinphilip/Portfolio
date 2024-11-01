@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import './intro.css';
-import img from '../../assets/jubin.png';
+
 
 
 function Intro() {
@@ -38,7 +38,6 @@ function Intro() {
           <button className='btn'>Contact me</button>
         </a>
       </div>
-      <img className='profile' src={img} alt='' />
     </section>
   );
 }
