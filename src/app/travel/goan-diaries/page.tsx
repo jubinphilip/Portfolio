@@ -81,7 +81,7 @@ export default function GoanDiaries() {
               <MonoLabel>Thivim · First contact</MonoLabel>
               <Story>
                 Goa wasted no time testing our Hindi. At Thivim we assembled our finest sentence —
-                &ldquo;Thivim se… bus kidhar se milega… kuch kuch?&rdquo; — and the conductor
+                &ldquo;Thivim se jakar bus kidhar se milega… hamem kuch kuch Hindi maloom&rdquo; — and the conductor
                 looked at us with great patience and replied in flawless Malayalam. We had
                 travelled 800 kilometres to be told &ldquo;get in&rdquo; in our own mother tongue,
                 on a Goan bus playing Malayalam songs. Later, with the same broken Hindi, we
@@ -265,9 +265,10 @@ export default function GoanDiaries() {
           <section className="max-w-2xl mx-auto text-center">
             <MonoLabel>Evening · Homeward</MonoLabel>
             <Story>
-              By evening we had bought gifts for friends and family, hopped three buses to
-              Madgaon, and survived a four-hour wait on the platform before the Duronto Express
-              finally rolled in. We boarded the way every good trip should end —
+              By evening we had bought gifts for friends and family, and — with our kuch kuch
+              knowledge of Hindi guiding us through three buses — reached Madgaon railway
+              station, where we survived a four-hour wait on the platform before the Duronto
+              Express finally rolled in. We boarded the way every good trip should end —
             </Story>
             <p className="mt-8 text-2xl md:text-3xl font-light italic leading-snug">
               Empty wallets. Bags full of laundry.{" "}
