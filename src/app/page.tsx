@@ -7,7 +7,7 @@ const info = {
   email: "jubinphilip25@gmail.com",
   phone: "+91 7025889751",
   github: "https://github.com/jubinphilip",
-  linkedin: "https://linkedin.com/in/jubin-philip",
+  linkedin: "https://www.linkedin.com/in/jubin-philip-92935b211/",
   website: "https://jubinphilip.netlify.app",
 };
 

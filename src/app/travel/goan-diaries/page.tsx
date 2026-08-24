@@ -59,8 +59,8 @@ export default function GoanDiaries() {
             </div>
             <Photo
               src="/travel/goa-7.jpeg"
-              alt="All seven of us squeezed into the general compartment of the Okha Express"
-              caption="General compartment, Okha Express"
+              alt="All seven of us together aboard the Okha Express on the way to Goa"
+              caption="Aboard the Okha Express"
               aspect="aspect-[16/10]"
             />
           </section>
