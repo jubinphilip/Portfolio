@@ -39,8 +39,11 @@ const experience = [
     points: [
       "Architected Redis queue workers so heavy scraping, parsing, and bulk database updates run asynchronously — with zero added API latency.",
       "Built legal-data ETL pipelines that clean messy web-scraped documents and PDFs straight into structured PostgreSQL.",
-      "Optimized indexes and queries for a 30% boost in production database responsiveness, and led a zero-downtime MySQL → PostgreSQL migration.",
+      "Hardened worker pipelines with retry mechanisms, structured logging, and failure handling — fault-tolerant jobs and consistent data, even when scrapers misbehave.",
+      "Optimized indexes and queries for a 30% boost in production database responsiveness, and led a MySQL → PostgreSQL migration with zero data loss.",
+      "Designed secure, modular REST APIs with JWT authentication on a cleanly layered backend.",
       "Trained custom PyTorch computer-vision models on 10,000+ labeled images for OCR text extraction.",
+      "Accelerated everyday development with AI tooling — Claude Code and Google Antigravity wired into the workflow for building, debugging, and refactoring.",
     ],
   },
   {
