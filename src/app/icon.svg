@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <style>
+    .bg { fill: #faf6ee; }
+    .ink { fill: #1c1917; }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #171412; }
+      .ink { fill: #ece7de; }
+    }
+  </style>
+  <rect class="bg" width="64" height="64" rx="14" />
+  <text x="26" y="47" text-anchor="middle" class="ink"
+    font-family="Georgia, 'Times New Roman', serif" font-size="44" font-style="italic" font-weight="600">J</text>
+  <circle cx="46" cy="44" r="5" fill="#c2410c" />
+</svg>

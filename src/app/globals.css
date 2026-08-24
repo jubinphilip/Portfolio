@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+:root {
+  --paper: #faf6ee;
+  --paper-raise: #ffffff;
+  --ink: #1c1917;
+  --ink-soft: #57534e;
+  --ink-faint: #a09a90;
+  --accent: #c2410c;
+  --accent-soft: #f4e3d3;
+  --line: #e4dccb;
+  --line-strong: #1c1917;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #171412;
+    --paper-raise: #201c19;
+    --ink: #ece7de;
+    --ink-soft: #b3aca2;
+    --ink-faint: #6f685f;
+    --accent: #e8703a;
+    --accent-soft: #33231a;
+    --line: #2d2822;
+    --line-strong: #ece7de;
+    color-scheme: dark;
+  }
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-paper-raise: var(--paper-raise);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-ink-faint: var(--ink-faint);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --font-serif: var(--font-fraunces);
+  --font-mono: var(--font-geist-mono);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-fraunces), georgia, serif;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--paper);
+}
+
+/* slowly rotating dashed ring around the portrait */
+@keyframes spin-slow {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.ring-spin {
+  animation: spin-slow 40s linear infinite;
+}
+
+/* skills marquee */
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marquee 30s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ring-spin,
+  .marquee-track {
+    animation: none;
+  }
+  html {
+    scroll-behavior: auto;
+  }
+}
