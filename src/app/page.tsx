@@ -85,6 +85,11 @@ const projects = [
     description:
       "End-to-end car booking with OTP auth, Razorpay payments, MinIO object storage cutting media load times by 35%, and Prisma transactions locking concurrent bookings.",
     tech: ["Next.js", "Express", "Prisma", "MinIO", "Razorpay"],
+    href: "https://github.com/jubinphilip/carRental-Client",
+    links: [
+      { label: "Client", url: "https://github.com/jubinphilip/carRental-Client" },
+      { label: "Server", url: "https://github.com/jubinphilip/carRental-Server" },
+    ],
   },
 ];
 
@@ -259,6 +264,21 @@ export default function Portfolio() {
                     </span>
                   ))}
                 </div>
+                {p.links && (
+                  <div className="mt-6 flex gap-6 font-mono text-[11px] uppercase tracking-[0.2em]">
+                    {p.links.map((l) => (
+                      <a
+                        key={l.label}
+                        href={l.url}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="underline underline-offset-4 decoration-line-strong hover:text-accent transition-colors"
+                      >
+                        {l.label} ↗
+                      </a>
+                    ))}
+                  </div>
+                )}
               </div>
             </article>
           ))}
