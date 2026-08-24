@@ -1,0 +1,13 @@
+# Netlify config for the Next.js portfolio.
+# This overrides the site's UI build settings, which were still set up for the
+# old Create React App version (publish dir "build").
+
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "24"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
