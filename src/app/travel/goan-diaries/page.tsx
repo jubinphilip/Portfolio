@@ -116,14 +116,33 @@ export default function GoanDiaries() {
             />
           </section>
 
-          {/* bangle incident */}
+          {/* cows + the cycle incident */}
           <section className="grid md:grid-cols-2 gap-10 md:gap-14 items-center">
             <Photo
-              src="/travel/goa-9.png"
-              alt="AI-illustrated recreation of the bangle incident at Baga beach — Anandu mid-escape"
-              caption="The bangle incident — an AI reconstruction"
+              src="/travel/goa-10.png"
+              alt="AI-illustrated recreation of the cycle incident — Suraj escaping on his scooty with the crowd and a few cows in pursuit"
+              caption="The escape"
               aspect="aspect-[3/2]"
             />
+            <div>
+              <MonoLabel>Candolim → Baga · Cows have right of way</MonoLabel>
+              <Story>
+                Riding in Goa comes with a rule nobody warns you about: the roads belong to the
+                cows. They stand in the middle of the road with the confidence of traffic police,
+                and everyone simply flows around them. On the ride from Candolim to Baga, the rule
+                got properly tested. Lakshmi, Sanjo, Rosemary and I reached the beach first — but
+                Suraj, Anandu and Ruby were nowhere to be seen. When we finally called them, the
+                story came out: Suraj had clipped a passing cyclist with his scooty, and within
+                seconds a crowd had gathered around him — and, we swear, a few cows wandered in
+                too, as if they wanted to give statements. Luckily it was only a small bump, and
+                with Anandu and Ruby backing him up, Suraj talked his way out and escaped — keeping
+                a very respectful distance from everything on two wheels for the rest of the trip.
+              </Story>
+            </div>
+          </section>
+
+          {/* bangle incident */}
+          <section className="grid md:grid-cols-2 gap-10 md:gap-14 items-center">
             <div>
               <MonoLabel>Baga, later that night · The bangle incident</MonoLabel>
               <Story>
@@ -136,6 +155,12 @@ export default function GoanDiaries() {
                 all seven of us to escape one eight-year-old.
               </Story>
             </div>
+            <Photo
+              src="/travel/goa-9.png"
+              alt="AI-illustrated recreation of the bangle incident at Baga beach — Anandu mid-escape"
+              caption="The bangle incident"
+              aspect="aspect-[3/2]"
+            />
           </section>
 
           {/* day two: anjuna fort */}
@@ -155,19 +180,13 @@ export default function GoanDiaries() {
               alt="All of us on the laterite ramparts of Anjuna Fort"
               caption="All seven, on Anjuna Fort"
               aspect="aspect-[3/4]"
-              className="max-w-sm w-full justify-self-center md:justify-self-end"
+              className="max-w-sm w-full justify-self-center md:justify-self-start order-last md:order-first"
               sizes="24rem"
             />
           </section>
 
           {/* the sea below */}
           <section className="grid md:grid-cols-2 gap-10 md:gap-14 items-center">
-            <Clip
-              src="/travel/anjuna-sea.mp4"
-              caption="The Arabian Sea, below the fort walls"
-              aspect="aspect-[3/4]"
-              className="max-w-sm w-full justify-self-center md:justify-self-start order-last md:order-first"
-            />
             <div>
               <MonoLabel>From the ramparts</MonoLabel>
               <Story>
@@ -177,6 +196,12 @@ export default function GoanDiaries() {
                 watching far longer than any itinerary would allow, and nobody complained.
               </Story>
             </div>
+            <Clip
+              src="/travel/anjuna-sea.mp4"
+              caption="The Arabian Sea, below the fort walls"
+              aspect="aspect-[3/4]"
+              className="max-w-sm w-full justify-self-center md:justify-self-end"
+            />
           </section>
 
           {/* basilica */}
@@ -197,7 +222,7 @@ export default function GoanDiaries() {
               alt="Facade of the Basilica of Bom Jesus, Old Goa"
               caption="Basilica of Bom Jesus, Old Goa"
               aspect="aspect-[3/4]"
-              className="max-w-sm w-full justify-self-center md:justify-self-end"
+              className="max-w-sm w-full justify-self-center md:justify-self-start order-last md:order-first"
               sizes="24rem"
             />
           </section>
@@ -209,7 +234,7 @@ export default function GoanDiaries() {
               alt="A fun painted wall in the lanes of Fontainhas"
               caption="Fontainhas being Fontainhas"
               aspect="aspect-[3/4]"
-              className="max-w-sm w-full justify-self-center md:justify-self-start order-last md:order-first"
+              className="max-w-sm w-full justify-self-center md:justify-self-end order-last"
               sizes="24rem"
             />
             <div>
@@ -241,7 +266,7 @@ export default function GoanDiaries() {
               alt="A proper Goan fish thali — fried fish, curries, and rice on a steel platter"
               caption="One proper Goan fish thali"
               aspect="aspect-[3/4]"
-              className="max-w-sm w-full justify-self-center md:justify-self-end"
+              className="max-w-sm w-full justify-self-center md:justify-self-start order-last md:order-first"
               sizes="24rem"
             />
           </section>
@@ -252,7 +277,7 @@ export default function GoanDiaries() {
               src="/travel/goa-video.mp4"
               caption="Casino ships on the Mandovi, Panjim"
               aspect="aspect-[3/4]"
-              className="max-w-sm w-full justify-self-center md:justify-self-start order-last md:order-first"
+              className="max-w-sm w-full justify-self-center md:justify-self-end order-last"
             />
             <div>
               <MonoLabel>Mandovi riverfront</MonoLabel>
