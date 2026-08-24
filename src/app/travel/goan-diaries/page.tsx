@@ -53,8 +53,10 @@ export default function GoanDiaries() {
                 package with LuxiGo, and without pausing to think it through, walked straight into
                 the general compartment of the Okha Express. We were supposed to be eight, but
                 Adarsh got kidnapped at the last minute by &ldquo;serious work&rdquo; at his
-                company — so it was Sang, Suraj, Anandu, Rosemary, Ruby, Lakshmi and me, rattling
-                sixteen hours up the coast from Ernakulam Junction to Thivim.
+                company — so Suraj, Anandu, Rosemary, Ruby, Lakshmi and I boarded at Ernakulam
+                Junction, and Sanjo joined at Kozhikode, walking in with a bag of chips like a
+                man who understood exactly what a sixteen-hour journey needed. Seven of us,
+                rattling up the coast to Thivim.
               </Story>
             </div>
             <Photo
@@ -78,13 +80,13 @@ export default function GoanDiaries() {
             <div>
               <MonoLabel>Thivim · First contact</MonoLabel>
               <Story>
-                Goa wasted no time testing our Hindi. At Thivim I assembled my finest sentence —
+                Goa wasted no time testing our Hindi. At Thivim we assembled our finest sentence —
                 &ldquo;Thivim se… bus kidhar se milega… kuch kuch?&rdquo; — and the conductor
                 looked at us with great patience and replied in flawless Malayalam. We had
                 travelled 800 kilometres to be told &ldquo;get in&rdquo; in our own mother tongue,
-                on a Goan bus playing Malayalam songs. The same jugaad-Hindi later negotiated two
-                days of scooters over the phone with the operator&apos;s man, which honestly
-                deserves a certificate.
+                on a Goan bus playing Malayalam songs. Later, with the same broken Hindi, we
+                contacted the operator&apos;s man over the phone and collected our scooters for
+                two days — which honestly deserves a certificate.
               </Story>
             </div>
           </section>
@@ -252,8 +254,9 @@ export default function GoanDiaries() {
               <Story>
                 Down on the Mandovi riverfront, Panjim&apos;s famous floating casinos glide past
                 like buildings that learned to swim — deck upon deck of lights drifting along the
-                river. We watched the Deltin Royale slide by from the promenade and kept our
-                distance: by this point in the trip, our wallets were in no condition to board.
+                river. We watched the Deltin Royale slide by from the promenade, the evening
+                breeze coming off the water and Panjim&apos;s lights blinking on one by one behind
+                us — a quiet little pause before the rush of getting home began.
               </Story>
             </div>
           </section>
@@ -262,9 +265,9 @@ export default function GoanDiaries() {
           <section className="max-w-2xl mx-auto text-center">
             <MonoLabel>Evening · Homeward</MonoLabel>
             <Story>
-              By evening we had emptied our wallets on gifts for friends and family, hopped three
-              buses to Madgaon, and survived a four-hour wait on the platform before the Duronto
-              Express finally rolled in. We boarded the way every good trip should end —
+              By evening we had bought gifts for friends and family, hopped three buses to
+              Madgaon, and survived a four-hour wait on the platform before the Duronto Express
+              finally rolled in. We boarded the way every good trip should end —
             </Story>
             <p className="mt-8 text-2xl md:text-3xl font-light italic leading-snug">
               Empty wallets. Bags full of laundry.{" "}
