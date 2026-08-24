@@ -72,8 +72,8 @@ const projects = [
     title: "Event Management Platform",
     kicker: "Full-Stack Event Booking",
     description:
-      "Event ticketing built on modular NestJS microservices behind GraphQL, with Firebase Auth, role-based permissions, and server-side-rendered Next.js views.",
-    tech: ["Next.js", "NestJS", "GraphQL", "PostgreSQL"],
+      "Event ticketing built on modular NestJS microservices behind GraphQL, with Firebase Auth, role-based permissions, Drizzle ORM with versioned schema migrations, and server-side-rendered Next.js views.",
+    tech: ["Next.js", "NestJS", "GraphQL", "PostgreSQL", "Drizzle ORM"],
   },
   {
     index: "003",
