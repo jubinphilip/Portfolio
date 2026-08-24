@@ -265,39 +265,6 @@ export default function Portfolio() {
         </div>
       </section>
 
-      {/* travel: boarding-pass ticket to the journal */}
-      <section className="max-w-6xl mx-auto px-6 pb-24">
-        <Link
-          href="/travel"
-          className="group block rounded-3xl border border-line-strong bg-paper-raise overflow-hidden transition-transform hover:-translate-y-1"
-        >
-          <div className="grid sm:grid-cols-[1fr_auto]">
-            <div className="p-8 md:p-10">
-              <MonoLabel>Off the Clock — Travel Journal</MonoLabel>
-              <p className="mt-4 text-3xl md:text-5xl font-light tracking-tight leading-tight">
-                Sixteen hours, seven friends, one{" "}
-                <em className="font-medium text-accent">sudden</em> plan.
-              </p>
-              <div className="mt-8 flex flex-wrap items-center gap-x-3 gap-y-2 font-mono text-[11px] uppercase tracking-[0.2em] text-ink-soft">
-                <span>Ernakulam Jn</span>
-                <span className="text-accent" aria-hidden="true">✦ ────── ✦</span>
-                <span>Thivim, Goa</span>
-                <span className="text-ink-faint">· Okha Express · 16 hrs</span>
-              </div>
-            </div>
-            <div className="relative border-t sm:border-t-0 sm:border-l border-dashed border-line-strong p-8 md:p-10 flex flex-col items-center justify-center gap-4 text-center">
-              <span aria-hidden="true" className="hidden sm:block absolute -top-3 -left-3 h-6 w-6 rounded-full bg-paper border border-line-strong" />
-              <span aria-hidden="true" className="hidden sm:block absolute -bottom-3 -left-3 h-6 w-6 rounded-full bg-paper border border-line-strong" />
-              <span className="font-mono text-[10px] uppercase tracking-[0.25em] text-ink-faint">Now boarding</span>
-              <span className="font-mono text-[12px] uppercase tracking-[0.15em] bg-ink text-paper px-6 py-3 rounded-full group-hover:bg-accent transition-colors whitespace-nowrap">
-                Goan Diaries ↗
-              </span>
-              <span className="font-mono text-[10px] uppercase tracking-[0.25em] text-ink-faint">Fare · one weekend</span>
-            </div>
-          </div>
-        </Link>
-      </section>
-
       {/* education & certifications */}
       <section id="education" className="border-t border-line-strong">
         <div className="max-w-6xl mx-auto px-6 py-24 grid md:grid-cols-2 gap-16">
