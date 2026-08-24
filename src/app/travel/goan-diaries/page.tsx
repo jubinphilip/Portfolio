@@ -50,8 +50,9 @@ export default function GoanDiaries() {
               <Story>
                 This trip was never supposed to be Goa. Ruby&apos;s original pitch was Amboli — and
                 then, two days before departure, the destination quietly changed. We booked a
-                package with LuxiGo, and without pausing to think it through, walked straight into
-                the general compartment of the Okha Express. We were supposed to be eight, but
+                package with LuxiGo, and on the evening of 24 July, without pausing to think it
+                through, walked straight into the general compartment of the Okha Express. We
+                were supposed to be eight, but
                 Adarsh got kidnapped at the last minute by &ldquo;serious work&rdquo; at his
                 company — so Suraj, Anandu, Rosemary, Ruby, Lakshmi and I boarded at Ernakulam
                 Junction, and Sanjo joined at Kozhikode, walking in with a bag of chips like a
