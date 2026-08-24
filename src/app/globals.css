@@ -65,6 +65,8 @@ body {
   }
 }
 .ring-spin {
+  transform-box: fill-box;
+  transform-origin: center;
   animation: spin-slow 40s linear infinite;
 }
 

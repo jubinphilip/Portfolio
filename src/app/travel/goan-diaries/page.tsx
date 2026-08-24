@@ -123,12 +123,13 @@ export default function GoanDiaries() {
             <div>
               <MonoLabel>Baga, later that night · The bangle incident</MonoLabel>
               <Story>
-                That night Baga gave us the trip&apos;s greatest legend: an eight-year-old bangle
-                seller who slid her coloured bangles onto Anandu&apos;s wrist, demanded ₹100, and
-                then simply refused to take them back — she just stood there smiling beautifully
-                while he panicked. He finally set them down on the sand and ran; she chased. He
-                looped back from the far side; she spotted him within seconds and chased again. We
-                escaped, technically. She won, morally.
+                That night Baga gave us the trip&apos;s greatest legend: an eight-year-old girl
+                selling coloured bangles pressed them into Anandu&apos;s hands, asked for ₹100,
+                and then simply refused to take them back — she just stood there smiling
+                beautifully while he was left holding bangles he never asked for. He finally set
+                them down on the sand and ran; she chased. He looped back from the far side; she
+                spotted him within seconds and chased again. Somehow we got away — but it took
+                all seven of us to escape one eight-year-old.
               </Story>
             </div>
           </section>

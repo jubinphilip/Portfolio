@@ -104,11 +104,11 @@ export default function Portfolio() {
   return (
     <div className="bg-paper text-ink">
       {/* top bar */}
-      <header className="max-w-6xl mx-auto px-6 pt-8 flex items-baseline justify-between gap-6">
+      <header className="max-w-6xl mx-auto px-6 pt-8 flex flex-wrap items-baseline justify-between gap-x-6 gap-y-5">
         <a href="#" className="text-xl italic font-medium tracking-tight">
           Jubin&nbsp;Philip<span className="text-accent">.</span>
         </a>
-        <nav className="hidden sm:flex gap-7 font-mono text-[11px] uppercase tracking-[0.2em] text-ink-soft">
+        <nav className="order-last w-full flex flex-wrap gap-x-5 gap-y-2 sm:order-none sm:w-auto sm:gap-7 font-mono text-[10px] sm:text-[11px] uppercase tracking-[0.15em] sm:tracking-[0.2em] text-ink-soft">
           <a href="#work" className="hover:text-accent transition-colors">Work</a>
           <a href="#projects" className="hover:text-accent transition-colors">Projects</a>
           <a href="#education" className="hover:text-accent transition-colors">Education</a>
@@ -156,8 +156,8 @@ export default function Portfolio() {
 
         {/* portrait in a round frame */}
         <div className="justify-self-center md:justify-self-end relative w-64 h-64 md:w-80 md:h-80">
-          <svg viewBox="0 0 100 100" className="ring-spin absolute -inset-4 w-[calc(100%+2rem)] h-[calc(100%+2rem)] text-accent" aria-hidden="true">
-            <circle cx="50" cy="50" r="49" fill="none" stroke="currentColor" strokeWidth="0.6" strokeDasharray="2 4" />
+          <svg viewBox="0 0 100 100" className="absolute -inset-4 w-[calc(100%+2rem)] h-[calc(100%+2rem)] text-accent" aria-hidden="true">
+            <circle className="ring-spin" cx="50" cy="50" r="49" fill="none" stroke="currentColor" strokeWidth="0.6" strokeDasharray="2 4" />
           </svg>
           <div className="absolute -inset-4 rounded-full border border-line" aria-hidden="true" />
           <Image
@@ -260,6 +260,39 @@ export default function Portfolio() {
             </article>
           ))}
         </div>
+      </section>
+
+      {/* travel: boarding-pass ticket to the journal */}
+      <section className="max-w-6xl mx-auto px-6 pb-24">
+        <Link
+          href="/travel"
+          className="group block rounded-3xl border border-line-strong bg-paper-raise overflow-hidden transition-transform hover:-translate-y-1"
+        >
+          <div className="grid sm:grid-cols-[1fr_auto]">
+            <div className="p-8 md:p-10">
+              <MonoLabel>Off the Clock — Travel Journal</MonoLabel>
+              <p className="mt-4 text-3xl md:text-5xl font-light tracking-tight leading-tight">
+                Sixteen hours, seven friends, one{" "}
+                <em className="font-medium text-accent">sudden</em> plan.
+              </p>
+              <div className="mt-8 flex flex-wrap items-center gap-x-3 gap-y-2 font-mono text-[11px] uppercase tracking-[0.2em] text-ink-soft">
+                <span>Ernakulam Jn</span>
+                <span className="text-accent" aria-hidden="true">✦ ────── ✦</span>
+                <span>Thivim, Goa</span>
+                <span className="text-ink-faint">· Okha Express · 16 hrs</span>
+              </div>
+            </div>
+            <div className="relative border-t sm:border-t-0 sm:border-l border-dashed border-line-strong p-8 md:p-10 flex flex-col items-center justify-center gap-4 text-center">
+              <span aria-hidden="true" className="hidden sm:block absolute -top-3 -left-3 h-6 w-6 rounded-full bg-paper border border-line-strong" />
+              <span aria-hidden="true" className="hidden sm:block absolute -bottom-3 -left-3 h-6 w-6 rounded-full bg-paper border border-line-strong" />
+              <span className="font-mono text-[10px] uppercase tracking-[0.25em] text-ink-faint">Now boarding</span>
+              <span className="font-mono text-[12px] uppercase tracking-[0.15em] bg-ink text-paper px-6 py-3 rounded-full group-hover:bg-accent transition-colors whitespace-nowrap">
+                Goan Diaries ↗
+              </span>
+              <span className="font-mono text-[10px] uppercase tracking-[0.25em] text-ink-faint">Fare · one weekend</span>
+            </div>
+          </div>
+        </Link>
       </section>
 
       {/* education & certifications */}
