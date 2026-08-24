@@ -80,8 +80,12 @@ export default function GoanDiaries() {
             <div>
               <MonoLabel>Thivim · First contact</MonoLabel>
               <Story>
-                Goa wasted no time testing our Hindi. At Thivim we assembled our finest sentence —
-                &ldquo;Thivim se jakar bus kidhar se milega… hamem kuch kuch Hindi maloom&rdquo; — and the conductor
+                Goa wasted no time testing our Hindi. Our resort was in Calangute, and our
+                package operator had given us the route: a bus from Thivim railway station to
+                Mapusa, then another from Mapusa to Calangute. So we assembled our finest
+                sentence —
+                &ldquo;Mapusa or Calangute se janekar bus kidhar se milega… hamem kuch kuch
+                Hindi maloom&rdquo; — and the conductor
                 looked at us with great patience and replied in flawless Malayalam. We had
                 travelled 800 kilometres to be told &ldquo;get in&rdquo; in our own mother tongue,
                 on a Goan bus playing Malayalam songs. Later, with the same broken Hindi, we
