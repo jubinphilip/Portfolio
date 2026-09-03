@@ -65,7 +65,7 @@ const projects = [
     title: "InkDex",
     kicker: "AI Document Intelligence & RAG",
     description:
-      "A production-ready RAG platform — upload documents, then query them instantly through semantic search. PDFs are chunked by background workers, embedded with Sentence Transformers, and retrieved via pgvector with HNSW indexing and top-K thresholding.",
+      "An AI-powered RAG platform currently under active development — upload documents, then query them instantly through semantic search. PDFs are chunked by background workers, embedded with Sentence Transformers, and retrieved via pgvector with HNSW indexing and top-K thresholding.",
     tech: ["FastAPI", "PostgreSQL", "pgvector", "Redis · RQ", "Gemini"],
     href: "https://inkdex-frontend.vercel.app/",
     links: [
