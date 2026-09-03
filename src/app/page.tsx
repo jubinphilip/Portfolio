@@ -67,7 +67,12 @@ const projects = [
     description:
       "A production-ready RAG platform — upload documents, then query them instantly through semantic search. PDFs are chunked by background workers, embedded with Sentence Transformers, and retrieved via pgvector with HNSW indexing and top-K thresholding.",
     tech: ["FastAPI", "PostgreSQL", "pgvector", "Redis · RQ", "Gemini"],
-    href: "https://github.com/jubinphilip/InkDex-server",
+    href: "https://inkdex-frontend.vercel.app/",
+    links: [
+      { label: "Live Demo", url: "https://inkdex-frontend.vercel.app/" },
+      { label: "Client", url: "https://github.com/jubinphilip/InkDex-frontend" },
+      { label: "Server", url: "https://github.com/jubinphilip/InkDex-server" },
+    ],
     featured: true,
   },
   {
